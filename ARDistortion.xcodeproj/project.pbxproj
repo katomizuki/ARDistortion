@@ -16,6 +16,8 @@
 		D38B89AC28A67C41002A8F10 /* ARDistortionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38B89AB28A67C41002A8F10 /* ARDistortionTests.swift */; };
 		D38B89B628A67C41002A8F10 /* ARDistortionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38B89B528A67C41002A8F10 /* ARDistortionUITests.swift */; };
 		D38B89B828A67C41002A8F10 /* ARDistortionUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38B89B728A67C41002A8F10 /* ARDistortionUITestsLaunchTests.swift */; };
+		D38B89C528A67CE2002A8F10 /* PlaneNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38B89C428A67CE2002A8F10 /* PlaneNode.swift */; };
+		D38B89C728A68462002A8F10 /* shader.metal in Sources */ = {isa = PBXBuildFile; fileRef = D38B89C628A68462002A8F10 /* shader.metal */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		D38B89B128A67C41002A8F10 /* ARDistortionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARDistortionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D38B89B528A67C41002A8F10 /* ARDistortionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARDistortionUITests.swift; sourceTree = "<group>"; };
 		D38B89B728A67C41002A8F10 /* ARDistortionUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARDistortionUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D38B89C428A67CE2002A8F10 /* PlaneNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaneNode.swift; sourceTree = "<group>"; };
+		D38B89C628A68462002A8F10 /* shader.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = shader.metal; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,8 +104,10 @@
 			isa = PBXGroup;
 			children = (
 				D38B899428A67C3E002A8F10 /* AppDelegate.swift */,
+				D38B89C628A68462002A8F10 /* shader.metal */,
 				D38B899628A67C3E002A8F10 /* SceneDelegate.swift */,
 				D38B899828A67C3E002A8F10 /* ViewController.swift */,
+				D38B89C428A67CE2002A8F10 /* PlaneNode.swift */,
 				D38B899A28A67C3E002A8F10 /* Main.storyboard */,
 				D38B899D28A67C40002A8F10 /* Assets.xcassets */,
 				D38B899F28A67C40002A8F10 /* LaunchScreen.storyboard */,
@@ -258,6 +264,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D38B89C728A68462002A8F10 /* shader.metal in Sources */,
+				D38B89C528A67CE2002A8F10 /* PlaneNode.swift in Sources */,
 				D38B899928A67C3E002A8F10 /* ViewController.swift in Sources */,
 				D38B899528A67C3E002A8F10 /* AppDelegate.swift in Sources */,
 				D38B899728A67C3E002A8F10 /* SceneDelegate.swift in Sources */,
